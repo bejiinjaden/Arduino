@@ -17,7 +17,7 @@ unsigned char L [8][8] = {
 };
 
 void setup() {
-  // put your setup code here, to run once:
+  
 for(int i=0; i<8;i++){
   pinMode(R[i],OUTPUT);
   pinMode(C[i],OUTPUT);
@@ -25,7 +25,7 @@ for(int i=0; i<8;i++){
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
 for(int j=0;j<200;j++){
 display(L[8][8]);
 }
